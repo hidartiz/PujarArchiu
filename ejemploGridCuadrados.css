@@ -1,0 +1,16 @@
+main {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 20%);
+    /* tres columnas de ancho 20% */
+    /*grid-template-rows: 2% 20%px;*/
+    /* no hace falta definir las filas, pues se disponen automaticamente según lo definido en las columnas */
+    font-size: 5rem;
+}
+
+div {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+}
